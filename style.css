@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(255, 248, 239);
+}
+
+body {
+    margin: 5px;
+    width: 90vw;
+    padding: 5px 10px;
+    line-height: 2.5cqmax;
+    letter-spacing: 0.5px
+}
+em{
+    color:blue;
+    font-size: 0.8em;
+}
