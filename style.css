@@ -1,15 +1,37 @@
-*{
-    background-color: rgb(255, 248, 239);
-}
 
-body {
-    margin: 5px;
-    width: 90vw;
-    padding: 5px 10px;
-    line-height: 2.5cqmax;
-    letter-spacing: 0.5px
+.main{
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+
 }
 em{
     color:blue;
     font-size: 0.8em;
+}
+.header, .introduction, .lessons{
+    position: relative;
+    background-color: rgb(205, 205, 207);
+    margin: 10px 0;
+    padding: 0 20px;
+    border: 1px solid rgb(233, 224, 224);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(115, 105, 105, 0.5);
+    width: 100%;
+    overflow: hidden;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../rccg_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.1;
+}
+h1 {
+    color: rgb(19, 19, 75);
 }
