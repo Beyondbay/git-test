@@ -9,7 +9,7 @@ em{
     color:blue;
     font-size: 0.8em;
 }
-.header, .introduction, .lessons{
+.header, .intro, .teacher, .lessons{
     position: relative;
     background-color: rgb(205, 205, 207);
     margin: 10px 0;
@@ -17,7 +17,6 @@ em{
     border: 1px solid rgb(233, 224, 224);
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(115, 105, 105, 0.5);
-    width: 100%;
     overflow: hidden;
 }
 .background {
